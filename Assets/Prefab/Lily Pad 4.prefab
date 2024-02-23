@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8402280232063746516, guid: 03d15bc9f948dbc4086fae949e70ada5, type: 3}
+      propertyPath: syncScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1231811666434816256, guid: 03d15bc9f948dbc4086fae949e70ada5, type: 3}
       propertyPath: m_Name
       value: Lily Pad 4
@@ -58,6 +62,10 @@ PrefabInstance:
     - target: {fileID: 1231811666434816263, guid: 03d15bc9f948dbc4086fae949e70ada5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7142471555761274839, guid: 03d15bc9f948dbc4086fae949e70ada5, type: 3}
+      propertyPath: _assetId
+      value: 1881250083
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03d15bc9f948dbc4086fae949e70ada5, type: 3}
