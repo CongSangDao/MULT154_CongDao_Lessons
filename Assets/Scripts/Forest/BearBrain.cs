@@ -7,6 +7,7 @@ public class BearBrain : MonoBehaviour
     private Bot bot;
     private Vector3 hivePos;
     private bool hiveDropped = false;
+    private bool isStopped = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +42,16 @@ public class BearBrain : MonoBehaviour
             {
                 bot.Wander();
             }
+        }
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.CompareTag("Player"))
+        {
+            bot.Stop();
+            isStopped = true;
         }
     }
 }

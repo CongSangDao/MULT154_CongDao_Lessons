@@ -170,6 +170,10 @@ public class Bot : MonoBehaviour
         return false;
     }
 
-    // Update is called once per frame
+    public void Stop()
+    {
+        agent.isStopped = true;
+    }
+    
     
 }
